@@ -1,0 +1,43 @@
+*, *::before,*::after {
+    box-sizing: border-box;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.title {
+    font-weight: 600;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    padding: 15px
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}

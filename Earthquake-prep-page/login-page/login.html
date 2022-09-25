@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <script defer src="./login.js"></script>
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="title">
+        <h1>
+            Login
+        </h1>
+        <div class="login-text-container">
+            <input placeholder="Valid email" type="email" name="login-email" id="Email" required />
+            <input placeholder="Password" type="password" name="login-password" id="Password" required />
+        </div>
+        <div class="login-buttons">
+            <button type="submit">Login</button>
+        </div>
+        <div class="forgot-container">
+            <p>
+                <a href="../forgot-page/username.html">
+                    Forgot Username
+                </a>
+            </p>
+            <p>
+                <a href="../forgot-page/password.html">
+                    Forgot Password
+                </a>
+            </p>
+        </div>
+        <div class="create-container">
+            <p>
+                If you dont have an account, you can create one here.
+            </p>
+            <a id="Account" href="#">
+                <button type="submit">Create Account</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self-report Page</title>
+    <link rel="stylesheet" href="report.css">
+</head>
+<body>
+    <div class="title-container">
+        <h1>
+            Self-Report
+        </h1>
+        <p>
+            Fill out the questions completely.
+        </p>
+    </div>
+    <div class="main-container">
+        <form action="survey">
+            <p>
+                You fill out your name when completing this report or remain anonymous.
+            </p>
+            <div class="questionaire">
+                <p>    
+                    Name: 
+                    <input type="text" placeholder="Full name (not required)" size="50">
+                </p>
+                <p>
+                    Date of incident:
+                    <input type="date" placeholder="Date of incident">
+                </p>
+                <p>
+                    Type of incident:
+                    <select>
+                        <option value="0">
+                            Select one
+                        </option>
+                        <option value="1">
+                            Earthquake
+                        </option>
+                        <option value="2">
+                            Tsunami
+                        </option>
+                        <option value="3">
+                            Hurricane
+                        </option>
+                        <option value="4">
+                            Wildfire
+                        </option>
+                        <option value="5">
+                            Blizzard/Snow Storm
+                        </option>
+                    </select>
+                </p>
+                <p>
+                    Details of incident:
+                    <input type="text" placeholder="Damage, injuries, etc.">
+                </p>
+            </div>
+        </form>
+    </div>
+    <div class="submit-container">
+        <button type="submit">Submit</button>
+    </div>
+</body>
+</html>

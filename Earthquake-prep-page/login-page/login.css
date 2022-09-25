@@ -1,0 +1,60 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    padding-bottom: 13px;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.login-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input {
+    height: 26px;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.login-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.forgot-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    font-weight: 600;
+    padding: 2px;
+    color: black;
+    border: 2px solid black;
+    background-color: white;
+    text-decoration: none;
+}
+
+#Account {
+    display: flex;
+    flex-direction: column;
+}
